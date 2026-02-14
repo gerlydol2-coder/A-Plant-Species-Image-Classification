@@ -52,3 +52,19 @@ These hyperparameter settings were selected to achieve high accuracy while maint
 | <img src="https://github.com/user-attachments/assets/4ad8870e-ca91-44de-a48d-01918d71bf4b" width="250" /> | Sorghum |
 | <img src="https://github.com/user-attachments/assets/d7cc803f-43a1-4405-939f-6cadd3a47e2e" width="250" /> | Buckwheat |
 | <img src="https://github.com/user-attachments/assets/a51a5023-bee9-4ef9-b947-ed5a5e852800" width="250" /> | Foxtail Millet |
+# Reflection Questions
+
+**1. How did the number of images per class affect your model’s accuracy?**  
+Classes with more images generally led to higher accuracy because the model had more examples to learn from. In contrast, classes with fewer images sometimes caused the model to misclassify, as it did not have enough data to generalize well.
+
+**2. Which plant species were most commonly misclassified and why?**  
+Crops that looked visually similar, such as finger millet and pearl millet, were most commonly misclassified. This is likely because their textures and shapes share similar patterns, making it harder for the model to distinguish between them.
+
+**3. How did changing the epochs, batch size, or learning rate affect the training results?**  
+Increasing the number of epochs helped the model converge better but could lead to overfitting if too high. A larger batch size made training faster but sometimes reduced accuracy, while a smaller batch size gave more precise updates. Adjusting the learning rate affected how quickly the model learned—too high caused instability, too low made training slow.
+
+**4. What challenges did you encounter during dataset collection and labeling?**  
+Collecting enough high-quality images for each cereal crop was time-consuming. Some images were unclear, taken from unusual angles, or included multiple crops, making labeling more difficult. Ensuring consistency in image size and quality was also a challenge.
+
+**5. If you were to improve your model, what specific changes would you make and why?**  
+To improve the model, I would increase the dataset size for underrepresented crops, apply data augmentation to improve generalization, and experiment with deeper neural network architectures. Additionally, fine-tuning hyperparameters like learning rate and batch size could further enhance accuracy and reduce misclassification.
