@@ -1,6 +1,13 @@
 # Laboratory-Work-2-A-Plant-Species-Image-Classification
 ## Cereal Crops
-## 🌾 Grain Classification Dataset
+<img width="664" height="626" alt="image" src="https://github.com/user-attachments/assets/7dfe78e9-b7d2-40cd-bf34-7cef4c674cd4" />
+I chose a batch size of 8 because smaller batches allow the model to adjust its weights more often during training. This can help improve learning performance. It also works well with the available system resources.
+
+For the learning rate, I set it to 0.001 because it provides a steady and controlled learning process. A very high learning rate might cause unstable results, while a very low one would make training too slow. I found that 0.001 gives a good balance between speed and stability.
+
+Overall, these settings were selected to achieve good accuracy while maintaining stable and efficient training.
+
+## 🌾 Cereal Classification Dataset
 
 | Image | Crop Name |
 |:-----:|:---------:|
