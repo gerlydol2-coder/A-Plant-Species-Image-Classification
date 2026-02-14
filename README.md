@@ -1,5 +1,14 @@
-# Laboratory-Work-2-A-Plant-Species-Image-Classification
-## Cereal Crops
+# A-Plant-Species-Image-Classification
+##  Cereal Crop Image Classification Project
+
+## Project Overview
+
+### Brief Description of the Project
+This project focuses on building an **image classification system** that can identify different **cereal crops** from images. The model is trained on a dataset of labeled cereal crop images, including finger millet, corn (maize), rye, pearl millet, rice, barley, and oats. By analyzing the visual features of each crop, the system can automatically recognize the type of cereal crop in an image.
+
+### Purpose of the Image Classification Model
+The model aims to **assist farmers, agricultural researchers, and agronomists** in quickly and accurately identifying cereal crops from photos. This supports tasks like crop monitoring, farm management, and data collection. Automating crop recognition reduces manual work, minimizes errors, and improves efficiency in agricultural practices.
+
 ## 📊 Model Training Results
 
 <table>
