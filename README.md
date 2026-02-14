@@ -1,9 +1,12 @@
 # Laboratory-Work-2-A-Plant-Species-Image-Classification
 ## Cereal Crops
-<img width="664" height="626" alt="image" src="https://github.com/user-attachments/assets/7dfe78e9-b7d2-40cd-bf34-7cef4c674cd4" />
-I chose a batch size of 8 because smaller batches allow the model to adjust its weights more often during training. This can help improve learning performance. It also works well with the available system resources.
 
-For the learning rate, I set it to 0.001 because it provides a steady and controlled learning process. A very high learning rate might cause unstable results, while a very low one would make training too slow. I found that 0.001 gives a good balance between speed and stability.
+<img width="620" height="851" alt="image" src="https://github.com/user-attachments/assets/c8ed46a8-2712-4efd-96cd-50a633f513c8" /> I selected 50 epochs to give the model enough time to fully understand the patterns in the dataset. By allowing the model to go through the training data multiple times, it improves its ability to classify images correctly while still avoiding excessive training that could lead to overfitting. This number of epochs helped the model reach high accuracy while maintaining stable performance throughout the training process.
+
+I chose a batch size of 16 because it provides a good balance between learning stability and training efficiency. With this batch size, the model updates its weights after processing a small group of data, which helps make the learning process smoother and more consistent. It is not too small to cause unstable learning and not too large to slow down computation or require too much memory.
+
+The learning rate of 0.001 was selected to ensure gradual and controlled learning. A smaller learning rate allows the model to adjust its weights carefully, reducing the risk of overshooting the optimal solution. Based on the training results, where the accuracy improved quickly and the loss decreased steadily, these chosen values were appropriate and contributed to the model’s strong and stable performance.
+
 
 Overall, these settings were selected to achieve good accuracy while maintaining stable and efficient training.
 
