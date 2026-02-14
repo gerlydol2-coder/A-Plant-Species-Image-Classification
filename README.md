@@ -73,13 +73,6 @@ To improve the model, I would increase the dataset size for underrepresented cro
 
 ## https://teachablemachine.withgoogle.com/models/[...]
 
-## 🌾 Cereal Crop Species Profiles
-
-# Plant Profile: Corn (Maize)
-
-Aron "maigu" ang tanan ug dili motaas pag-ayo ang imong GitHub README, i-organize nato ang **20 ka cereals** sa usa ka **Table**. Pinaagi niini, mas limpyo tan-awon ang imong project ug dali ra i-compare ang mga crops.
-
-Ania ang Markdown code nga pwede nimo i-copy diretso sa imong editor:
 
 ---
 
