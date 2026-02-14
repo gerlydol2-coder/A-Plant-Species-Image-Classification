@@ -1,4 +1,4 @@
-# A-Plant-Species-Image-Classification
+# A Laboratory -Work-2-Plant-Species-Image-Classification
 ##  A. Cereal Crop Image Classification Project Overview
 
 ### Brief Description of the Project
