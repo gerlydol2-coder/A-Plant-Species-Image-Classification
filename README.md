@@ -58,7 +58,7 @@ These hyperparameter settings were selected to achieve high accuracy while maint
 Classes with more images generally led to higher accuracy because the model had more examples to learn from. In contrast, classes with fewer images sometimes caused the model to misclassify, as it did not have enough data to generalize well.
 
 **2. Which plant species were most commonly misclassified and why?**  
-Crops that looked visually similar, such as finger millet and pearl millet, were most commonly misclassified. This is likely because their textures and shapes share similar patterns, making it harder for the model to distinguish between them.
+Crops that looked visually similar, such as finger millet and rice, also the sorghum were most commonly misclassified. This is likely because their textures and shapes share similar patterns, making it harder for the model to distinguish between them.
 
 **3. How did changing the epochs, batch size, or learning rate affect the training results?**  
 Increasing the number of epochs helped the model converge better but could lead to overfitting if too high. A larger batch size made training faster but sometimes reduced accuracy, while a smaller batch size gave more precise updates. Adjusting the learning rate affected how quickly the model learned—too high caused instability, too low made training slow.
