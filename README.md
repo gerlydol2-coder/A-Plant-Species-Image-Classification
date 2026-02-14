@@ -13,7 +13,7 @@ The model aims to **assist farmers, agricultural researchers, and agronomists** 
 <tr>
 <td width="50%">
 
-<img src="https://github.com/user-attachments/assets/c8ed46a8-2712-4efd-96cd-50a633f513c8" width="100%"/>
+<img src="https://github.com/user-attachments/assets/761d2862-324a-4dc0-bb34-6a2c37e0a885" width="100%"/>
 # Reflection Questions
 
 **1. How did the number of images per class affect your model’s accuracy?**  
@@ -85,7 +85,6 @@ Collecting enough high-quality images for each cereal crop was time-consuming. S
 **5. If you were to improve your model, what specific changes would you make and why?**  
 To improve the model, I would increase the dataset size for underrepresented crops, apply data augmentation to improve generalization, and experiment with deeper neural network architectures. Additionally, fine-tuning hyperparameters like learning rate and batch size could further enhance accuracy and reduce misclassification.
 
-<img width="605" height="766" alt="image" src="https://github.com/user-attachments/assets/761d2862-324a-4dc0-bb34-6a2c37e0a885" />
 ## https://teachablemachine.withgoogle.com/models/[...]
 
 # Plant Profile: Rice
