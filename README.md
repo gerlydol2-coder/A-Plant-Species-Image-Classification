@@ -75,27 +75,61 @@ To improve the model, I would increase the dataset size for underrepresented cro
 
 ## 🌾 Cereal Crop Species Profiles
 
-Kini nga table nagpakita sa 20 ka mga lugas (grains) nga importante sa agrikultura sa tibuok kalibutan.
+# Plant Profile: Corn (Maize)
 
-| Image | Common Name | Scientific Name | Description |
-| :---: | :--- | :--- | :--- |
-| <img src="https://milnepublishing.geneseo.edu/app/uploads/sites/235/2020/06/image1-34-1024x768.jpeg" width="100"> | **Rice** | *Oryza sativa* | Semi-aquatic grass; staple food for over half the global population. |
-| <img src="https://cdn.britannica.com/36/167236-050-BF90337E/Ears-corn.jpg" width="100"> | **Corn (Maize)** | *Zea mays* | Tall grass with large, grain-bearing ears enclosed in husks. |
-| <img src="https://vlsci.com/wp-content/uploads/2022/07/melissa-askew-y4xZxzN754M-unsplash-scaled.jpg" width="100"> | **Wheat** | *Triticum aestivum* | Primary grain for bread-making due to its high gluten content. |
-| <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmBrAVipw0nSCvulMh-I7xH2qZ-sv2EZ_s1Q&s" width="100"> | **Barley** | *Hordeum vulgare* | Noted for its long awns; used in brewing and animal fodder. |
-| ImageCommon NameScientific NameDescription<img src="https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/articles/health_tools/healthy_grains_slideshow/1800ss_getty_rf_sorghum.jpg" width="100"> | **Sorghum** | *Sorghum bicolor* | Extremely drought-tolerant grain; staple in semi-arid regions. |
-| <img src="https://images.unsplash.com/photo-1594145070102-3f749a0d8508" width="100"> | **Oats** | *Avena sativa* | Cool-season grain with drooping panicles; rich in beta-glucan. |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Single_rye_ear.jpg/800px-Single_rye_ear.jpg" width="100"> | **Rye** | *Secale cereale* | Cold-hardy grain used for dark breads and whiskey production. |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Tef_Eragrostis_tef.jpg/800px-Tef_Eragrostis_tef.jpg" width="100"> | **Teff** | *Eragrostis tef* | Tiny ancient grain from Ethiopia; gluten-free and high in iron. |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Pennisetum_glaucum_seeds.jpg/800px-Pennisetum_glaucum_seeds.jpg" width="100"> | **Pearl Millet** | *Pennisetum glaucum* | Produces cylindrical spikes; thrives in very poor, sandy soils. |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Ragi_In_the_field.jpg/800px-Ragi_In_the_field.jpg" width="100"> | **Finger Millet** | *Eleusine coracana* | Hand-shaped seed heads; known for exceptionally long storage life. |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Setaria_italica_1.JPG/800px-Setaria_italica_1.JPG" width="100"> | **Foxtail Millet**| *Setaria italica* | Bushy, tail-like spikes; one of the oldest cultivated millets. |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Echinochloa_esculenta_01.jpg/800px-Echinochloa_esculenta_01.jpg" width="100"> | **Barnyard Millet**| *Echinochloa esculenta* | Fast-growing millet; used as a substitute for rice in many dishes. |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Buckwheat_flowers_and_seeds.jpg/800px-Buckwheat_flowers_and_seeds.jpg" width="100"> | **Buckwheat** | *Fagopyrum esculentum* | A pseudocereal with triangular seeds; not related to wheat. |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Quinoa_plant_in_the_sun.jpg/800px-Quinoa_plant_in_the_sun.jpg" width="100"> | **Quinoa** | *Chenopodium quinoa* | High-protein pseudocereal; contains all essential amino acids. |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Triticale_close-up.jpg/800px-Triticale_close-up.jpg" width="100"> | **Triticale** | *× Triticosecale* | A hybrid of wheat and rye; combines yield with hardiness. |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Spelt_wheat_close-up.jpg/800px-Spelt_wheat_close-up.jpg" width="100"> | **Spelt** | *Triticum spelta* | Ancient subspecies of wheat with a distinct nutty flavor. |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Einkorn_Wheat.jpg/800px-Einkorn_Wheat.jpg" width="100"> | **Einkorn** | *Triticum monococcum* | One of the earliest forms of cultivated wheat (founder crop). |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Emmer_wheat.jpg/800px-Emmer_wheat.jpg" width="100"> | **Emmer** | *Triticum dicoccum* | Ancient hulled wheat; a staple of Neolithic agriculture. |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Amaranth_seeds_plant.jpg/800px-Amaranth_seeds_plant.jpg" width="100"> | **Amaranth** | *Amaranthus caudatus* | Vibrant pseudocereal seeds; culturally significant in Mesoamerica. |
-| <img src="https://www.coyograinmachine.com/uploads/202324479/fonio-millet-quinoa-scouring-destonerc45ccdd8-dae6-4a60-af8b-4baa15d43b64.jpg" width="100"> | **Fonio** | *Digitaria exilis* | Smallest species of millet; matures extremely fast in 6-8 weeks. |
+Aron "maigu" ang tanan ug dili motaas pag-ayo ang imong GitHub README, i-organize nato ang **20 ka cereals** sa usa ka **Table**. Pinaagi niini, mas limpyo tan-awon ang imong project ug dali ra i-compare ang mga crops.
+
+Ania ang Markdown code nga pwede nimo i-copy diretso sa imong editor:
+
+---
+
+## 🌾 Comprehensive Cereal Crop Profiles
+
+| Image | Common Name | Scientific Name | Key Description |
+| --- | --- | --- | --- |
+| <img src="[https://bit.ly/3XvR8uS](https://www.google.com/search?q=https://bit.ly/3XvR8uS)" width="100"> | **Rice** | *Oryza sativa* | Semi-aquatic grass; staple for half the world. |
+| <img src="[https://bit.ly/3Iu8O2L](https://www.google.com/search?q=https://bit.ly/3Iu8O2L)" width="100"> | **Corn** | *Zea mays* | Monoecious plant with large husked ears. |
+| <img src="[https://bit.ly/3YvS9fT](https://www.google.com/search?q=https://bit.ly/3YvS9fT)" width="100"> | **Wheat** | *Triticum aestivum* | High-gluten grain used primarily for bread. |
+| <img src="[https://bit.ly/3E8Xv1z](https://www.google.com/search?q=https://bit.ly/3E8Xv1z)" width="100"> | **Barley** | *Hordeum vulgare* | Noted for long awns; used in brewing and fodder. |
+| <img src="[https://bit.ly/3lCDm6Z](https://www.google.com/search?q=https://bit.ly/3lCDm6Z)" width="100"> | **Sorghum** | *Sorghum bicolor* | Drought-tolerant "camel crop" for arid regions. |
+| <img src="[https://bit.ly/3S3R9vX](https://www.google.com/search?q=https://bit.ly/3S3R9vX)" width="100"> | **Oats** | *Avena sativa* | Features drooping panicles; rich in beta-glucan. |
+| <img src="[https://bit.ly/3S6l0Y1](https://www.google.com/search?q=https://bit.ly/3S6l0Y1)" width="100"> | **Rye** | *Secale cereale* | Cold-hardy grain used for dark breads and whiskey. |
+| <img src="[https://bit.ly/3I6W8Yk](https://www.google.com/search?q=https://bit.ly/3I6W8Yk)" width="100"> | **Teff** | *Eragrostis tef* | Tiny Ethiopian grain; high in iron and gluten-free. |
+| <img src="[https://bit.ly/3K8Y7Xp](https://www.google.com/search?q=https://bit.ly/3K8Y7Xp)" width="100"> | **Pearl Millet** | *Pennisetum glaucum* | Cylindrical spikes; thrives in very poor soils. |
+| <img src="[https://bit.ly/3YvW9zQ](https://www.google.com/search?q=https://bit.ly/3YvW9zQ)" width="100"> | **Finger Millet** | *Eleusine coracana* | Hand-shaped seed heads; very long storage life. |
+| <img src="[https://bit.ly/3XvO9zL](https://www.google.com/search?q=https://bit.ly/3XvO9zL)" width="100"> | **Foxtail Millet** | *Setaria italica* | Bushy, tail-like spikes; ancient East Asian crop. |
+| <img src="[https://bit.ly/40YvS9z](https://www.google.com/search?q=https://bit.ly/40YvS9z)" width="100"> | **Barnyard Millet** | *Echinochloa esculenta* | Fastest growing millet; used as a rice substitute. |
+| <img src="[https://bit.ly/3lyV9zX](https://www.google.com/search?q=https://bit.ly/3lyV9zX)" width="100"> | **Buckwheat** | *Fagopyrum esculentum* | Pseudocereal with triangular seeds; gluten-free. |
+| <img src="[https://bit.ly/3K7Xv9z](https://www.google.com/search?q=https://bit.ly/3K7Xv9z)" width="100"> | **Quinoa** | *Chenopodium quinoa* | Andean pseudocereal; a complete plant protein. |
+| <img src="[https://bit.ly/41XvS8z](https://www.google.com/search?q=https://bit.ly/41XvS8z)" width="100"> | **Triticale** | *× Triticosecale* | A hybrid of wheat and rye; high yield and hardy. |
+| <img src="[https://bit.ly/3E7Yv9z](https://www.google.com/search?q=https://bit.ly/3E7Yv9z)" width="100"> | **Spelt** | *Triticum spelta* | Ancient wheat subspecies with a nutty flavor. |
+| <img src="[https://bit.ly/3S5Xv9z](https://www.google.com/search?q=https://bit.ly/3S5Xv9z)" width="100"> | **Einkorn** | *Triticum monococcum* | The "first wheat"; simple genetic structure. |
+| <img src="[https://bit.ly/3K9Yv9z](https://www.google.com/search?q=https://bit.ly/3K9Yv9z)" width="100"> | **Emmer** | *Triticum dicoccum* | Twice-grained wheat; staple of ancient Egypt. |
+| <img src="[https://bit.ly/40XvS9z](https://www.google.com/search?q=https://bit.ly/40XvS9z)" width="100"> | **Amaranth** | *Amaranthus caudatus* | Vibrant red stalks; high-protein ancient seed. |
+| <img src="[https://bit.ly/3lBV9zX](https://www.google.com/search?q=https://bit.ly/3lBV9zX)" width="100"> | **Fonio** | *Digitaria exilis* | Smallest of all millets; matures in just 6-8 weeks. |
+
+---
+### 🌾 Classified Cereal Crop Species
+
+| Category | Image | Common Name | Scientific Name | Description |
+| :--- | :---: | :--- | :--- | :--- |
+| **Major Grains** | <img src="https://milnepublishing.geneseo.edu/app/uploads/sites/235/2020/06/image1-34-1024x768.jpeg" width="100"> | **Rice** | *Oryza sativa* | Semi-aquatic grass; staple food for half the world. |
+| | <img src="https://cdn.britannica.com/36/167236-050-BF90337E/Ears-corn.jpg" width="100"> | **Corn (Maize)** | *Zea mays* | Tall grass with large, grain-bearing ears in husks. |
+| | <img src="https://blog.suvie.com/wp-content/uploads/2021/08/wheat-2526829_1920-1360x907.jpg" width="100"> | **Wheat** | *Triticum aestivum* | The primary grain used for bread and gluten products. |
+| **Wheats & Hybrids** | <img src="https://as1.ftcdn.net/v2/jpg/01/82/39/40/1000_F_182394013_LzaD94QJMmHgTKTP1zpITxMFyBjJGIZS.jpg" width="100"> | **Einkorn** | *Triticum monococcum* | Ancient wheat with a simple genetic structure. |
+| | <img src="https://img.freepik.com/premium-photo/emmer-wheat-with-hulled-grains-robust-spikes_1079150-77348.jpg" width="100"> | **Emmer** | *Triticum dicoccum* | Early staple wheat; used in specialty gourmet dishes. |
+| | <img src="https://sovereignfoods.com.au/cdn/shop/products/Spelt-Grain-Biodynamic-20kg-Burrum-Biodynamics-Sovereign-Foods-1665628161_1100x.jpg" width="100"> | **Spelt** | *Triticum spelta* | Ancient wheat subspecies with a nutty flavor. |
+| | <img src="https://images.squarespace-cdn.com/content/v1/60f6b8e171d5c44bc51ef29a/1630509038314-W4BK85LZPP75NWANBBP3/Triticale+cereal+from+Seedtech.JPG" width="100"> | **Triticale** | *× Triticosecale* | Hybrid of wheat and rye; combines yield and hardiness. |
+| **Millets** | <img src="https://i0.wp.com/www.smartfood.org/wp-content/uploads/2021/01/FingerMilletCropTrust.jpg?fit=1230%2C833&ssl=1" width="100"> | **Finger Millet** | *Eleusine coracana* | High-calcium grain with hand-shaped seed heads. |
+| | <img src="https://naro.go.ug/wp-content/uploads/2023/11/pearlmillet-900x600.jpg" width="100"> | **Pearl Millet** | *Pennisetum glaucum* | Drought-tolerant grain with cylindrical spikes. |
+| | <img src="https://5.imimg.com/data5/SE/AX/EM/SELLER-73880490/thenai-korralu-kangni-thina-navane-setaria-italica-.jpg" width="100"> | **Foxtail Millet** | *Setaria italica* | Ancient East Asian crop with tail-like spikes. |
+| | <img src="https://tassieseeds.com.au/wp-content/uploads/2018/02/IMG_2669.jpeg" width="100"> | **Barnyard Millet** | *Echinochloa esculenta* | Fast-growing millet; a popular rice substitute. |
+| | <img src="https://www.coyograinmachine.com/uploads/202324479/fonio-millet-quinoa-scouring-destonerc45ccdd8-dae6-4a60-af8b-4baa15d43b64.jpg" width="100"> | **Fonio** | *Digitaria exilis* | Smallest species of millet; matures in 6-8 weeks. |
+| **Arid & Cold Hardy** | <img src="https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/articles/health_tools/healthy_grains_slideshow/1800ss_getty_rf_sorghum.jpg" width="100"> | **Sorghum** | *Sorghum bicolor* | Drought-tolerant grain; staple in semi-arid regions. |
+| | <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmBrAVipw0nSCvulMh-I7xH2qZ-sv2EZ_s1Q&s" width="100"> | **Barley** | *Hordeum vulgare* | Noted for long awns; used in brewing and fodder. |
+| | <img src="https://garrettseed.com/wp-content/uploads/2020/08/Rye-Grain.jpg" width="100"> | **Rye** | *Secale cereale* | Cold-hardy grain used for dark breads and spirits. |
+| | <img src="https://cdn.britannica.com/87/187187-050-31B10B3D/oats-harvest.jpg" width="100"> | **Oats** | *Avena sativa* | Cool-season grain; high in heart-healthy fiber. |
+| | <img src="https://www.adaptiveseeds.com/wp-content/uploads/2014/12/teff-al-white-3.jpg" width="100"> | **Teff** | *Eragrostis tef* | Tiny, iron-rich Ethiopian ancient grain. |
+| **Pseudocereals** | <img src="https://wpcdn.web.wsu.edu/wp-labs/uploads/sites/2703/2023/08/IMG_20190812_101453343_HDR-1-scaled.jpg" width="100"> | **Quinoa** | *Chenopodium quinoa* | High-protein Andean seed; naturally gluten-free. |
+| | <img src="https://www.johnstonseed.com/wp-content/uploads/2017/08/buckwheat-4424194_1280.jpg" width="100"> | **Buckwheat** | *Fagopyrum esculentum* | Gluten-free seed with a unique triangular shape. |
+| | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Amaranth_seeds_plant.jpg/800px-Amaranth_seeds_plant.jpg" width="100"> | **Amaranth** | *Amaranthus caudatus* | Vibrant red plant with high-protein ancient seeds. |
