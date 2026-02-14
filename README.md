@@ -34,8 +34,7 @@ The model aims to **assist farmers, agricultural researchers, and agronomists** 
 | <img src="https://as1.ftcdn.net/v2/jpg/01/82/39/40/1000_F_182394013_LzaD94QJMmHgTKTP1zpITxMFyBjJGIZS.jpg" width="100"> | **Amaranth** | *Amaranthus caudatus* | Vibrant ancient seed crop; highly nutritious pseudocereal. |
 
 
-## 📊 Model Training Results
-
+## C. 📊 Model Training Details
 <table>
 <tr>
 <td width="50%">
@@ -47,7 +46,7 @@ The model aims to **assist farmers, agricultural researchers, and agronomists** 
 </td>
 <td width="50%">
 
-## C. ⚙️Model Training Details
+## ⚙️Model Training Rsults and Details
 
 **Epochs: 50**  
 I selected 50 epochs to ensure that the model had sufficient opportunities to learn the patterns in the dataset. This allowed the model to improve its classification performance while avoiding undertraining. The accuracy increased steadily and stabilized, showing that this value was appropriate.
