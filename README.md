@@ -35,6 +35,7 @@ The model aims to **assist farmers, agricultural researchers, and agronomists** 
 
 
 ## C. 📊 Model Training Details
+
 <table>
 <tr>
 <td width="40%">
@@ -51,9 +52,22 @@ The model aims to **assist farmers, agricultural researchers, and agronomists** 
 </td>
 </tr>
 </table>
-# D. Model Evaluation
-<img src="https://github.com/user-attachments/assets/761d2862-324a-4dc0-bb34-6a2c37e0a885" width="100%"/>
 
+---
+
+## D. 📈 Model Evaluation
+
+To verify the effectiveness of the training, I monitored the accuracy and loss curves. These graphs indicate how well the model learned over time and whether it can generalize to new data.
+
+<img src="https://github.com/user-attachments/assets/761d2862-324a-4dc0-bb34-6a2c37e0a885" width="100%" alt="Accuracy and Loss Graphs" />
+
+### 🔍 Key Metrics Observed:
+
+* **Accuracy Curve:** The blue line represents the training accuracy, while the orange line shows the test accuracy. Both lines converged toward **100%**, indicating that the model successfully learned the unique characteristics of each fruit class.
+* **Loss Curve:** The loss significantly dropped during the first 10 epochs and stabilized near zero. This confirms that the model's predictions became increasingly precise as training progressed.
+* **Generalization:** Since the test accuracy closely followed the training accuracy, it shows that the model is robust and not overfitted to just the training images.
+
+---
 ## 🌾 Cereal Classification Dataset
 
 | Image | Crop Name |
