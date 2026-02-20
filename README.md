@@ -51,7 +51,7 @@ The model aims to **assist farmers, agricultural researchers, and agronomists** 
 </td>
 </tr>
 </table>
-# D. D. Model Evaluation
+# D. Model Evaluation
 <img src="https://github.com/user-attachments/assets/761d2862-324a-4dc0-bb34-6a2c37e0a885" width="100%"/>
 
 ## 🌾 Cereal Classification Dataset
