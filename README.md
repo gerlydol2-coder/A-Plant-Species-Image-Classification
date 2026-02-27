@@ -56,9 +56,86 @@ The model aims to **assist farmers, agricultural researchers, and agronomists** 
 
 ## D. 📈 Model Evaluation
 
-To verify the effectiveness of the training, I monitored the accuracy and loss curves. These graphs indicate how well the model learned over time and whether it can generalize to new data.
+To evaluate the effectiveness of my model, I monitored the accuracy and loss curves during training. These graphs help me understand how well the model learned from the training data and how well it generalizes to unseen data.
 
-<img src="https://github.com/user-attachments/assets/761d2862-324a-4dc0-bb34-6a2c37e0a885" width="100%" alt="Accuracy and Loss Graphs" />
+---
+
+### 1️⃣ Training Accuracy per Epoch
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/440279ca-a122-430f-955c-bd6cfa498e23" width="500"/>
+</p>
+
+**Explanation:**
+
+This graph shows the training accuracy across epochs.
+
+During the first few epochs, I observed a rapid increase in accuracy. As training continued, the accuracy reached nearly **100% (1.0)** and remained stable. This indicates that my model successfully learned the patterns from the training dataset.
+
+However, I understand that high training accuracy alone does not guarantee good performance on new data, so I also analyzed the validation accuracy.
+
+---
+
+### 2️⃣ Validation Accuracy per Epoch
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3b98c72f-126d-44c1-8d77-e856ce87f6ab" width="500"/>
+</p>
+
+**Explanation:**
+
+This graph presents the validation (test) accuracy.
+
+I noticed that the validation accuracy reached approximately **98–99%**, which is very close to the training accuracy. The curves follow a similar pattern and remain stable throughout the epochs.
+
+This tells me that my model generalizes well to unseen data and shows minimal signs of overfitting.
+
+---
+
+### 3️⃣ Training Loss per Epoch
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/87a5af59-1445-43c5-99dd-3194c086b015" width="500"/>
+</p>
+
+**Explanation:**
+
+This graph shows the training loss over time.
+
+At the beginning of training, the loss was relatively high, which is expected. As the epochs progressed, the loss quickly decreased and approached zero. This means that my model progressively minimized prediction errors while learning.
+
+---
+
+### 4️⃣ Validation Loss per Epoch
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/55feda65-fedd-4075-b3b9-5fdbf3188af2" width="500"/>
+</p>
+
+**Explanation:**
+
+This graph displays the validation loss.
+
+I observed that the validation loss also decreased significantly after the initial epochs and remained low overall. Although there were minor fluctuations, the loss stabilized toward the end of training.
+
+This further confirms that my model performs consistently well on unseen data.
+
+---
+
+## ✅ Overall Model Performance Summary
+
+- **Training Accuracy:** ~100%
+- **Validation Accuracy:** ~98–99%
+- **Training Loss:** Near 0
+- **Validation Loss:** Low and stable
+- **Overfitting:** Minimal
+- **Generalization Ability:** Strong
+
+### 📌 Final Conclusion
+
+Based on the accuracy and loss curves, I conclude that my model learned effectively and demonstrates strong generalization capability. The high accuracy and low loss values indicate that the model is reliable and suitable for classification tasks.
+
+
 
 ### 🔍 Key Metrics Observed:eight
 
