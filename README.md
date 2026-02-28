@@ -186,6 +186,6 @@ I would increase dataset size, apply data augmentation, experiment with deeper a
 
 # 🔗 Model Link
 
-https://teachablemachine.withgoogle.com/models/[...]
+### https://drive.google.com/file/d/1bQVZBT3QNkr6cpWio0WOiW-EA1NZ4_eP/view?usp=sharing
 
 ---
